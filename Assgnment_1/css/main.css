@@ -1,0 +1,89 @@
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: 'Changa', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #123212;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.header {
+    font-size: 64px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.nav-menu {
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #64ffda;
+}
+
+.nav-menu li {
+    width: 30%;
+    display:inline-block;
+    float:inherit;
+    text-align: center;
+    background-color: #64ffda;
+    
+}
+
+ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    float: left;
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+    background-color: #e0e0e0;
+}
+
+.list-item-name {
+    font-size: 32px;
+    margin: 8px 8px;
+}
+
+.list-item-price {
+    font-size: 32px;
+    margin: 8px 8px;
+}
+
+.list-item-menu-details {
+    font-size: 32px;
+    text-align: center;
+    margin: 8px 8px;
+}
+
+.list-name-details {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+form > input {
+    font-size: 32px;
+    display: block;
+    width: 256px;
+    padding: 8px 8px;
+    margin: auto;
+    border-radius: 2px;
+    border: 5px solid green;
+}
+
+form > button {
+    font-size: 32px;
+    width: 196px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid red;
+    background-color: #888888;
+}
